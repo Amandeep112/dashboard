@@ -1,0 +1,102 @@
+.sidebar {
+    flex: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #11101d;
+}
+
+.logodetails {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logoName {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.logodetails i {
+    font-size: 30px;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+.sidelinks {
+
+    height: 100%;
+    padding: 30px;
+    padding-top: 0px;
+
+}
+
+.sidelinks li {
+    position: relative;
+    list-style: none;
+}
+
+.sidelinks li i {
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+.sidelinks li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.linkName {
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sub_menu {
+    padding-left: 70px;
+    margin-top: -10px;
+    /* display: none; */
+}
+
+.sub_menuOpen {
+    padding-left: 70px;
+    margin-top: -10px;
+    display: none;
+}
+
+.sub_menu li {
+    color: #fff;
+    height: 30px;
+    width: 150px;
+    background-color: #2a274d;
+}
+.NameArrow{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .sidebar {
+        flex: 1;
+        height:auto;
+        top: 0;
+        left: 0;
+        background-color: #11101d;
+    } 
+    .sidelinks{
+        display: flex;  
+        flex-direction: column;
+    }
+    
+}

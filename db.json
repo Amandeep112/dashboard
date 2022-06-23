@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "name": "amandeep",
+      "email": "him@tru.agency",
+      "city": "canada",
+      "phone": "9988776655",
+      "id": 9
+    },
+    {
+      "name": "amandeep",
+      "email": "him@tru.agency2",
+      "city": "talwara",
+      "phone": "9087622222",
+      "id": 10
+    },
+    {
+      "name": "amandeep",
+      "email": "him@tru.agency11",
+      "city": "talwara",
+      "phone": "8877665541",
+      "id": 11
+    },
+    {
+      "name": "amandeep",
+      "email": "a.amandeep@tru.agency",
+      "city": "amandeep",
+      "phone": "9087622221",
+      "id": 12
+    },
+    {
+      "name": "amandeep",
+      "email": "Aman1998@gmail.com",
+      "city": "talwara",
+      "phone": "1221212121",
+      "id": 13
+    }
+  ]
+}

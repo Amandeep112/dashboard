@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+  
+} 
+.homeContainer{
+     flex: 5;
+}
+
+.tablecon{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}

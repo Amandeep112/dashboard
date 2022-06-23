@@ -1,0 +1,43 @@
+.tableCon{
+    flex: 8;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+   border:2px solid navy;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th,td{
+   text-align: left;
+   padding: 10px;
+   border:none;
+}
+ 
+.deletebtn{
+    background-color: #d11a2a;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+
+
+}
+.editbtn{
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+}
