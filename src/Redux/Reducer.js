@@ -3,9 +3,11 @@ const initialState = {
     database: [],
     singleuser: {},
     user: false,
-    ValidUser:[{username:'amn199806@gmail.com',
+    ValidUser: [{username:'amn199806@gmail.com',
                 password:'1234567'},
-              ]
+                {username:'amn@gmail.com',
+                password:'1234567@'},
+]
 
 
 }

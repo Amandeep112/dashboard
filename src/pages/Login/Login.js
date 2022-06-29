@@ -8,9 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import { logIn } from '../../Redux/action';
 import classes from './login.module.css'
 export default function Login() {
-    const { ValidUser } = useSelector(state => state.user)
-    const ValidateUser = ValidUser.find((item) => item)
-
+    const { ValidUser}  = useSelector(state => state.user)
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const [error, setError] = useState('')
@@ -18,6 +16,9 @@ export default function Login() {
         username: '',
         password: '',
     });
+    console.log(user.username)
+    const validateUser = ValidUser.find((item) =>user.username===item.username && user.password===item.password  )
+    console.log(  validateUser  );
 
 
 
@@ -26,7 +27,7 @@ export default function Login() {
     }
     const LoginSub = (e) => {
         e.preventDefault()
-        if (ValidateUser.username === user.username && ValidateUser.password === user.password) {
+        if (validateUser  ) {
             dispatch(logIn())
             window.localStorage.setItem('login', JSON.stringify(user))
             navigate('/sidebar')
@@ -67,13 +68,11 @@ export default function Login() {
                         ></input>
                     </div>
                     <div>
-                   <span>
-                        {error} 
-                       </span>
+                   
+                       <p>{error}</p>  
+                        
                     </div>
-                    <div>
-                        <span>password </span>
-                    </div>
+                 
 
 
                     <button className={classes.btn} type='submit'>Login</button>

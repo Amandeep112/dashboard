@@ -24,8 +24,8 @@ export default function Side() {
               <i className="fa-brands fa-buffer"></i>
               <div className={classes.NameArrow}>
                  <p className={classes.linkName}>Dashboard</p>
-              <p> <i className="fa-solid fa-angle-down"></i></p>
               </div>
+              <p> <i className="fa-solid fa-angle-down"></i></p>
             </a>
          
         </li>
@@ -35,8 +35,8 @@ export default function Side() {
               <i className="fa-solid fa-border-all" onClick={catgoryClick}></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} onClick={catgoryClick} >Catagory</p>
-              <p>  <i className={`fa-solid fa-angle-down` }   ></i></p>
               </div>
+              <p>  <i className={`fa-solid fa-angle-down` }   ></i></p>
             
             </a>
           </div>
@@ -56,8 +56,8 @@ export default function Side() {
               <i className="fa-brands fa-product-hunt"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Products</p>
-              <p><i className="fa-solid fa-angle-down"></i></p> 
               </div>
+              <p><i className="fa-solid fa-angle-down"></i></p> 
              
             </a>
           </div>
@@ -69,8 +69,8 @@ export default function Side() {
               <i className="fa-solid fa-image-portrait"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Posts</p>
-              <p> <i className="fa-solid fa-angle-down"></i></p> 
               </div>
+              <p> <i className="fa-solid fa-angle-down"></i></p> 
               
             </a>
           </div>
@@ -82,8 +82,8 @@ export default function Side() {
               <i className="fa-solid fa-chart-line"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Analytics</p>
-              <p> <i className="fa-solid fa-angle-down"></i></p>
               </div>
+              <p> <i className="fa-solid fa-angle-down"></i></p>
               
             </a>
           </div>
@@ -95,8 +95,8 @@ export default function Side() {
               <i className="fa-solid fa-chart-gantt"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Chart</p>
-              <p>  <i className="fa-solid fa-angle-down"></i></p>
               </div>
+              <p>  <i className="fa-solid fa-angle-down"></i></p>
               
             </a>
           </div>
@@ -108,8 +108,8 @@ export default function Side() {
               <i className="fa-solid fa-plug"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Plugins</p>
-              <p> <i className="fa-solid fa-angle-down"></i></p>
               </div>
+              <p> <i className="fa-solid fa-angle-down"></i></p>
             
             </a>
           </div>
@@ -121,8 +121,8 @@ export default function Side() {
               <i className="fa-solid fa-gear"></i>
               <div className={classes.NameArrow}>
               <p className={classes.linkName} >Settings</p>
-              <p> <i className="fa-solid fa-angle-down"></i></p>
               </div>
+              <p> <i className="fa-solid fa-angle-down"></i></p>
              
             </a>
           </div>

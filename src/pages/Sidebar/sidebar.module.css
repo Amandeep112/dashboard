@@ -3,7 +3,7 @@
   
 } 
 .homeContainer{
-     flex: 6;
+     flex: 5;
 }
 img{
     object-fit: fill;

@@ -92,8 +92,8 @@ export const addUser = (user) => {
             console.log(res.data);
             dispatch(adduser())
             dispatch(loadUser())
-        }).catch((err) =>
+         }).catch((err) =>
             console.log("massage", err)
-        )
+         )
     }
 }

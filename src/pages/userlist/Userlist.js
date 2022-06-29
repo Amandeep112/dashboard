@@ -1,5 +1,5 @@
  
-import styles from './user.module.css'
+import    './user.module.css'
 import Side from '../side/Side'
 import Navbar from '../navbar/Navbar'
 import User from './User'
@@ -12,7 +12,7 @@ export default function UserList() {
  const dispatch=useDispatch()
   useEffect(() => {
      dispatch(loadUser())
-  }, []);
+  }, [dispatch]);
 const onDelete=(id)=>{
   if(window.confirm('Are you sure want to delete this user')){
 
